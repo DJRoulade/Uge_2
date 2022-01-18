@@ -11,7 +11,10 @@ void draw() {
   // kald metoden generate som laver en tilfældig x og y pos
   
   // tegner firkanten på canvas
+  
+  
   f.drawFirkant();
+  f = new Firkant();
   f.drawCircle();
 }
 
